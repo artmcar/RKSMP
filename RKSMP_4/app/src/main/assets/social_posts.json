@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Красивый закат сегодня",
+    "body": "Смотрите, какой цвет неба...",
+    "avatarUrl": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "title": "Новый кофе-мастер-класс",
+    "body": "Приходите все!",
+    "avatarUrl": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "title": "Что-то написано в заголовке 1",
+    "body": "Что-то написано в теле 1",
+    "avatarUrl": "https://i.pravatar.cc/150?img=3"
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "title": "Что-то написано в заголовке 2",
+    "body": "Что-то написано в теле 2",
+    "avatarUrl": "https://i.pravatar.cc/150?img=4"
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "title": "Что-то написано в заголовке 3",
+    "body": "Что-то написано в теле 3",
+    "avatarUrl": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 6,
+    "userId": 6,
+    "title": "Что-то написано в заголовке 4",
+    "body": "Что-то написано в теле 4",
+    "avatarUrl": "https://i.pravatar.cc/150?img=6"
+  },
+  {
+    "id": 7,
+    "userId": 7,
+    "title": "Что-то написано в заголовке 5",
+    "body": "Что-то написано в теле 5",
+    "avatarUrl": "https://i.pravatar.cc/150?img=7"
+  },
+  {
+    "id": 8,
+    "userId": 8,
+    "title": "Что-то написано в заголовке 6",
+    "body": "Что-то написано в теле 6",
+    "avatarUrl": "https://i.pravatar.cc/150?img=8"
+  },
+  {
+    "id": 9,
+    "userId": 9,
+    "title": "Что-то написано в заголовке 7",
+    "body": "Что-то написано в теле 7",
+    "avatarUrl": "https://i.pravatar.cc/150?img=9"
+  },
+  {
+    "id": 10,
+    "userId": 10,
+    "title": "Что-то написано в заголовке 8",
+    "body": "Что-то написано в теле 8",
+    "avatarUrl": "https://i.pravatar.cc/150?img=10"
+  },
+  {
+    "id": 11,
+    "userId": 11,
+    "title": "Что-то написано в заголовке 9",
+    "body": "Что-то написано в теле 9",
+    "avatarUrl": "https://i.pravatar.cc/150?img=11"
+  },
+  {
+    "id": 12,
+    "userId": 12,
+    "title": "Что-то написано в заголовке 10",
+    "body": "Что-то написано в теле 10",
+    "avatarUrl": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "id": 13,
+    "userId": 13,
+    "title": "Что-то написано в заголовке 11",
+    "body": "Что-то написано в теле 11",
+    "avatarUrl": "https://i.pravatar.cc/150?img=13"
+  },
+  {
+    "id": 14,
+    "userId": 14,
+    "title": "Что-то написано в заголовке 12",
+    "body": "Что-то написано в теле 12",
+    "avatarUrl": "https://i.pravatar.cc/150?img=14"
+  },
+  {
+    "id": 15,
+    "userId": 15,
+    "title": "Что-то написано в заголовке 13",
+    "body": "Что-то написано в теле 13",
+    "avatarUrl": "https://i.pravatar.cc/150?img=15"
+  }
+]
