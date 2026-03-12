@@ -1,0 +1,107 @@
+[
+  {
+    "id": 3432266,
+    "full_name": "JetBrains/kotlin",
+    "description": "The Kotlin Programming Language",
+    "stargazers_count": 52400,
+    "language": "Kotlin"
+  },
+  {
+    "id": 31792824,
+    "full_name": "flutter/flutter",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "stargazers_count": 176000,
+    "language": "Dart"
+  },
+  {
+    "id": 29028775,
+    "full_name": "facebook/react-native",
+    "description": "A framework for building native applications using React",
+    "stargazers_count": 126000,
+    "language": "C++"
+  },
+  {
+    "id": 299354207,
+    "full_name": "rustdesk/rustdesk",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+    "stargazers_count": 109000,
+    "language": "Rust"
+  },
+  {
+    "id": 51148780,
+    "full_name": "android/architecture-samples",
+    "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+    "stargazers_count": 45600,
+    "language": "Kotlin"
+  },
+  {
+    "id": 24953448,
+    "full_name": "google/material-design-icons",
+    "description": "Material Design icons by Google (Material Symbols)",
+    "stargazers_count": 53000,
+    "language": "No language"
+  },
+  {
+    "id": 32538871,
+    "full_name": "google/gson",
+    "description": "A Java serialization/deserialization library to convert Java Objects into JSON and back",
+    "stargazers_count": 24300,
+    "language": "Java"
+  },
+  {
+    "id": 7968417,
+    "full_name": "google/dagger",
+    "description": "A fast dependency injector for Android and Java.",
+    "stargazers_count": 17700,
+    "language": "Java"
+  },
+  {
+    "id": 5152285,
+    "full_name": "square/okhttp",
+    "description": "Square’s meticulous HTTP client for the JVM, Android, and GraalVM.",
+    "stargazers_count": 46900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 19148949,
+    "full_name": "PhilJay/MPAndroidChart",
+    "description": "A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.",
+    "stargazers_count": 38200,
+    "language": "Java"
+  },
+  {
+    "id": 57147349,
+    "full_name": "firebase/quickstart-android",
+    "description": "Firebase Quickstart Samples for Android",
+    "stargazers_count": 9300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 892275,
+    "full_name": "square/retrofit",
+    "description": "A type-safe HTTP client for Android and the JVM",
+    "stargazers_count": 43900,
+    "language": "HTML"
+  },
+  {
+    "id": 2990192,
+    "full_name": "signalapp/Signal-Android",
+    "description": "A private messenger for Android.",
+    "stargazers_count": 28500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 11267509,
+    "full_name": "bumptech/glide",
+    "description": "An image loading and caching library for Android focused on smooth scrolling",
+    "stargazers_count": 35000,
+    "language": "Java"
+  },
+  {
+    "id": 211288349,
+    "full_name": "android/compose-samples",
+    "description": "Official Jetpack Compose samples.",
+    "stargazers_count": 23000,
+    "language": "Kotlin"
+  }
+]
