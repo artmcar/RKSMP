@@ -1,0 +1,21 @@
+ktor:
+  deployment:
+    port: 8080
+    host: 0.0.0.0
+  application:
+    modules:
+      - org.example.ApplicationKt.module
+
+jwt:
+  secret: "secret-key"
+  issuer: "nobel-api-db"
+  audience: "nobel-clients"
+  realm: "Access to Nobel API DB"
+  expirationMinutes: 30
+
+db:
+  jdbcUrl: "..."
+
+  user: "..."
+  password: "..."
+  maxPoolSize: 10

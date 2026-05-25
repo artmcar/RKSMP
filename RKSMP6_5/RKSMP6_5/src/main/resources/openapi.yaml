@@ -1,0 +1,91 @@
+openapi: 3.0.3
+info:
+  title: Nobel Prize API
+  version: "1.0.0"
+  description: Реализация Nobel Prize API
+servers:
+  - url: http://localhost:8080
+paths:
+  /login:
+    post:
+      summary: Авторизация — возвращает JWT
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          description: Invalid credentials
+  /prizes:
+    get:
+      summary: Список всех премий
+      responses:
+        '200':
+          description: OK
+  /users/me:
+    get:
+      summary: Профиль текущего пользователя
+      security:
+        - bearerAuth: []
+      responses:
+        '200': { description: OK }
+        '401': { description: Unauthorized }
+  /users/me/prizes:
+    get:
+      summary: Избранные премии
+      security:
+        - bearerAuth: []
+      responses:
+        '200': { description: OK }
+        '401': { description: Unauthorized }
+  /users/me/prizes/{prizeId}:
+    post:
+      summary: Добавить премию в избранное
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: prizeId
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: OK }
+        '404': { description: Prize not found }
+    delete:
+      summary: Удалить премию из избранного
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: prizeId
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: OK }
+        '404': { description: Not in favorites }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    LoginRequest:
+      type: object
+      required: [username, password]
+      properties:
+        username: { type: string }
+        password: { type: string }
+    LoginResponse:
+      type: object
+      properties:
+        token: { type: string }
+        expiresAt: { type: integer, format: int64 }
